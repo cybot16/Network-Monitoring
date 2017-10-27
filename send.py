@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 
 smtp_ssl_host = 'smtp.gmail.com'  # smtp.mail.yahoo.com
 smtp_ssl_port = 465
-username = 'haloba.halob'
-password = 'azertyuiop123456789'
-sender = 'haloba.halob@gmail.com'
-targets = ['abdellah.sabry@gmail.com']
+username = 'username'
+password = 'passwd'
+sender = 'username@gmail.com'
+targets = ['myemail@gmail.com']
 
 msg = MIMEText('ALERT IN POWER STATION!!!')
 msg['Subject'] = 'TRAP!'
