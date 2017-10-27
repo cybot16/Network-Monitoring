@@ -19,8 +19,8 @@ ip = options.ip
 oid = options.oid
 
 print ip+oid
-username = 'cybot16'
-api_key = 'WaGAuN1U6aMJYswhxTZx'
+username = 'insert_username'
+api_key = 'insert_api_key'
 stream_token = 'o5j88pkmyt'
 power_limit = 50
 py.sign_in(username, api_key)
